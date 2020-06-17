@@ -26,5 +26,5 @@ data.push('push2');
 data.unshift('unshift');
 console.log('after two pushes and one unshift', data);
 
-data.splice(1, 2);
+data.splice(1, 2); //elimina elementi 1 e 2
 console.log('splice from 1 of 2 items', data);

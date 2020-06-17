@@ -26,3 +26,11 @@ if ({}) {
 if (function () { }) {
     console.log('empty function is truthy');
 }
+
+if("42" == 42){
+    console.log("? fa il matching trasformando uno dei due nello stesso tipo");
+}
+
+if("42" === 42){
+    console.log("Sono delllo stesso tipo? Non entra");
+}
