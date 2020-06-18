@@ -5,12 +5,10 @@ body{
 }
 
 #s1{
-    
     height: 20%;
 }
 
 #s2{
-    
     padding-left: 3em;
     padding-right: 3em;
 }
@@ -28,11 +26,21 @@ article {
     border: 1px solid whitesmoke;
 }
 
+form{
+    background-color: #f5f0e9;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
 #left{
     float: left;
 }
 
 #right{
     float: right;
-    padding-right: 60em;
+    padding-left: 15em;
+}
+
+#im{
+    float:right;
 }

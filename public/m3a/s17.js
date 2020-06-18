@@ -6,7 +6,7 @@ function Person(first, last) {
 }
 
 function PersonEx(first, middle, last) {
-    Person.call(this, first, last);
+    Person.call(this, first, last); //come il super, chiama il costruttore apposito
     this.middle = middle;
 
     this.helloEx = () => this.hello() + ' ' + this.middle;
@@ -20,3 +20,4 @@ console.log(q);
 
 console.log('Tom', p.hello());
 console.log('Quincy', q.helloEx());
+console.log('QQuinci', q.hello());
