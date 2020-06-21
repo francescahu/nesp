@@ -17,14 +17,14 @@ for (let i = 0; i < data.length; i++) {
 console.log('joined', data.join());
 console.log('to string', data.toString());
 
-console.log('pop', data.pop());
-console.log('shift', data.shift());
-console.log('data', data);
+console.log('pop', data.pop()); // prende ultimo elemento a destra
+console.log('shift', data.shift()); // prende il primo a sinistra
+console.log('data', data); // prende elemento centrale che rimane
 
-data.push('push1');
+data.push('push1'); // aggiunge elemento a destra
 data.push('push2');
-data.unshift('unshift');
-console.log('after two pushes and one unshift', data);
+data.unshift('unshift'); // aggiunge elemento a sinistra
+console.log('after two pushes and one unshift', data); 
 
-data.splice(1, 2); //elimina elementi 1 e 2
+data.splice(1, 2); //elimina elementi 1 e 2, quelli centrali e riassembra inizio e fine
 console.log('splice from 1 of 2 items', data);
